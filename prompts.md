@@ -1,0 +1,1 @@
+I'm a beginner ,I make a website using html and CSS . the website name is dev conference. That website had navigation Ber , hero section, speaker , pricing and last one is footer . I wanna add another section. Suggested me what section do I used. That will suitable for website.

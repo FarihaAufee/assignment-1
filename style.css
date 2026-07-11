@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;;
+}
+/* navigation start  */
+header{
+    background-color: #fff;
+    padding: 20px 60px;
+    
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}
+.nav-link a{
+    text-decoration: none;
+    color: #433a3a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 150;
+}
+.nav-btn{
+    background-color: #2563EB;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.nav-btn:hover{
+    background-color: #1d4ed8;
+}
+
+/* navigation end  */
+/* <!-- hero section start --> */
+/* .hero{
+    background-image: url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+.hero-section{
+    background-image:  linear-gradient(to left,
+        rgba(48, 48, 48, 0.7),
+        rgba(0,0,0,0.2)
+    ),
+    url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 0;
+}
+.hero-content{
+    text-align: center;
+    color: #fff;
+    max-width: 600px;
+}
+.hero-content h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.hero-content p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 250px;
+}
+/* .hero-content .hero-btn{
+    margin-bottom: 50px;
+} */
+/* <!-- hero section end --> */
+
+/* Speakers Section start */
+.speakers h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin:40px;
+}
+.speaker-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.speaker-card{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #c0c0c0;
+    overflow: hidden;
+    
+}
+.speaker-card img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.speaker-info{  
+    padding: 16px 20px; 
+}
+.speaker-info h4{
+    color: #4960b3;
+    font-size: 12px;
+    font-weight: 450;                  
+}
+.speaker-info h3{
+    margin: 10px 0;
+}
+.paragrap{
+    margin: 6px 0;
+    color: #6b7280;
+    font-size: 12px;
+    font-weight: 500;
+}
+/* <!-- Speakers Section end --> */
